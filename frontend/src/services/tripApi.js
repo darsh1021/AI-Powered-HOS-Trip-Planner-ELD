@@ -10,9 +10,11 @@ export const ApiErrorType = {
   NETWORK_ERROR: 'NETWORK_ERROR',
 };
 
+const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || 'https://ai-powered-hos-trip-planner-eld.onrender.com').replace(/\/+$/, '');
+
 export async function planTripApi(params) {
   try {
-    const response = await fetch('/api/trips/plan/', {
+    const response = await fetch(`${API_BASE_URL}/api/trips/plan/`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
