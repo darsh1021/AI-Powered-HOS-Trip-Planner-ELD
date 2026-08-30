@@ -1,3 +1,4 @@
+Video Explaination : https://www.loom.com/share/8549fd5254c8426c9a6eb849bad4f4c2
 # 🚛 AI-Powered HOS Trip Planner & Smart ELD (Spotter TMS)
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
